@@ -57,7 +57,7 @@
       Git Fetch
       
    <a name"Clone"></a>
-   ###f. Clone: Sao chép một **responsitory** 
+   f. Clone: Sao chép một **responsitory** 
    
       Git Clone
       
