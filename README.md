@@ -4,24 +4,18 @@
 [2. Một số khái niệm](khainiem)
    [a. Add](add)
    
-   [b. Remove](remove)
+   [b. Commit](commit)
    
-   [c. Commit](commit)
+   [c. Push](push)
    
-   [d. Push](push)
+   [d. Pull](pull)
    
-   [e. Pull](pull)
+   [e. Fetch](fetch)
    
-   [f. Fetch](fetch)
+   [f. Clone](clone)
    
-   [g. Clone](clone)
-   
-   [h. Fork](fork)
-   
-   [i. Star](star)
-   
-   [k. Watch](watch)
-   
+   [g. Fork](fork)
+     
 [3. Các bước để Setting up Git](setting)
 
 [4. Các bước để Generate and add SSH key](generate)
@@ -39,13 +33,34 @@
 2. Một số khái niệm:
 
    <a name"add"></a>
-   a. Add:
-   
-      Add file đã thay đổi vào stage. Để thực hiện *ADD* ta sử dụng câu lệnh sau:
+   a. Add: Add file đã thay đổi vào stage. Để thực hiện *ADD* ta sử dụng câu lệnh sau:
       
        Git add README.md để ADD vào file README.md 
 
-   <a name"remove"></a>
-   b. Remove:
+   <a name"commit"></a>
+   b. Commit: Ghi lại trạng thái thay đổi tại máy local 
    
+       Git Commit
+       
+   <a name"push"></a>
+   c. Push: Đẩy những thay đổi từ máy trạm lên sever.
    
+       Git Push
+       
+   <a name"pull"></a>
+   d. Pull: Đồng bộ trạng thái từ sever về máy trạm.
+   
+       Git Pull
+   
+   <a name"fetch"></a>
+   e. Fetch: Hủy tất cả thay đổi và **commit** cục bộ, lấy về (*fetch*) lịch sử gần đây nhất từ máy chủ và trỏ nhánh master cục bộ vào nó.
+   
+      Git Fetch
+      
+   <a name"Clone"></a>
+   f. Clone: Sao chép một **responsitory** 
+   
+      Git Clone
+      
+   <a name"fork"></a>
+   g. Fork: Một người dùng khác copy một bản **responsitory** về kho của họ.
